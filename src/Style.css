@@ -1,0 +1,478 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+/* the Background css */
+body {
+  background-color: #044260;
+  font-family: sans-serif;
+  font-size: 1.5rem;/* Basic resets */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Background */
+  body {
+    background-color: #044260;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  }
+  
+  /* Container styling */
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    margin: 1% 4%;
+    flex-wrap: wrap;
+  }
+  
+  /* Logo styling */
+  .logo {
+    font-size: 2.5rem;
+  }
+  
+  .logo span {
+    font-size: 2rem;
+    color: rgb(237, 91, 38);
+  }
+  
+  /* Navbar styling */
+  .nav-menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-menu a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-menu a:hover {
+    background-color: orangered;
+    border-radius: 12px;
+  }
+  
+  /* Menu icon for smaller screens */
+  .menu-icon {
+    display: none;
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .nav-menu {
+      position: absolute;
+      top: 50px;
+      left: -100%;
+      width: 100%;
+      height: 20vh;
+      background-color: #044260;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      transition: left 0.3s ease;
+    }
+  
+    .nav-menu.active {
+      left: 0;
+    }
+  
+    .menu-icon {
+      display: block;
+    }
+  }
+  
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  
+}
+/* css Header section ka   */
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: serif;
+    margin-top: 1%;
+    flex-wrap: wrap;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 4%;
+
+
+}
+.container .logo span {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 700;
+margin-top: -3px;
+}
+.container .logo  {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: -20px;
+
+}
+
+.container nav a{
+  color: aliceblue;
+}
+span{
+  font-size: 1.5rem;
+  font-family: serif;
+  color: rgb(237, 91, 38);
+}
+
+.container a{
+    text-decoration: none;
+    padding: 10px;
+}
+/* css of hero section */
+.mupashir{
+  color: rgba(169, 164, 174, 0.977);
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 10px;
+  width: 88%;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(23, 22, 22, 0.75);
+  transition: 0.5s;
+  
+
+}
+.skills-container p{
+  color: rgb(240, 242, 245);
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+.skll-pragraph{
+  color: rgb(240, 242, 245);
+  text-align: center;
+  font-size: 1.4rem;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+
+/* about me css */
+me-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.image-container {
+  margin-right: 20px;
+ 
+  
+}
+
+.student-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 30%;
+ 
+  }
+
+
+.bio-container {
+  max-width: 700px;
+}
+
+.bio-container h2 {
+  margin-bottom: 10px;
+}
+
+.bio-container p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+
+  /* css ka  skilss and projects  */
+
+
+  .Skills-form{
+    padding: 20px;
+    background-color: #ffffff;
+    min-width: 350px;
+    border-radius: 10px;
+    margin: 12px;
+
+  }
+  .Skills-form p{
+    color: #1b1b1c;
+  }
+  .Skills-form  button{
+    background-color: #044260;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  }
+  .Skills-form .title{
+    color: rgba(14,55,97);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+ .projects-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 5px;
+
+
+ }
+ .projects-container p{
+  color: rgb(43, 44, 45);
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+}
+
+
+.projec-header h3 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+ .projects-container ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.projects-container li {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.projects-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20%;
+}
+.projects-container p{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-top: -15px;
+
+}
+
+.projec-header h3:hover {
+  color: #044260;
+  text-decoration: none;
+  cursor: pointer;
+  transition: 0.5s;
+  font-size: 2rem;
+  font-family: serif;
+  font-weight: 700;
+  margin-top: 6px;
+  margin-bottom: 6px;
+  margin-left:  3px;
+  margin-right:  3px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  background-color: #f8f8f9;  
+}
+.projec-header h3{
+  text-align: center;
+  color: rgb(7, 224, 248);
+
+}
+@media (max-width: 550px) {
+  .projects-container {
+    flex-direction: column;
+    height: 100%;
+    flex-wrap: wrap;
+
+  }
+}
+ /* Css ka Contact Page */
+
+
+  .contacts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 29px;
+    padding: 10px;
+    height: 90vh;
+    font-size: 1.5rem;
+    font-family: serif;
+    
+  }
+  .contact-form{
+    padding: 20px;
+    background-color: #f8f8f9;
+    min-width: 350px;
+    border-radius: 10px;
+
+
+  }
+  .contact-form h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #044260;
+  }
+  .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    
+   
+ 
+  }
+  .form-group label{
+    color: #044260;
+    text-align: left;
+  }
+  .form-group input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .form-group textarea{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .btn button{
+    width: 100%;
+    padding: 20px;
+    background-color: #044260;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+
+
+  
+/* project btn-css */
+
+  .btn-style{
+    background-color: transparent ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: -56px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+    width: 150px;
+    
+  }
+
+  /* css ka hoverada protofolio */
+  a:hover{
+    background-color: orangered;
+    border: none;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 12px;
+  }
+ button:hover{
+   background-color: rgba(247, 97, 16, 0.977);
+   color: white;
+   padding: 10px 12px;
+   border-radius: 12px;
+
+ }
+ img:hover{
+   /* transform: scale(1.2); */
+   transition: 0.5s;
+   box-shadow: 10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+
+
+ }
+ /* Margin space between sections */
+.projec-header {
+  margin-top: 50px;
+  font-size: 2rem;
+  text-align: center;
+}
